@@ -1,0 +1,18 @@
+.country{
+    border: 2px solid green;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.country-clicked{
+    background-color: cadetblue;
+}
+.btn{
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
