@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './country.css'
 
-const Country = ({country}) => {
+const Country = ({country, handleVisitedCountry}) => {
     // console.log(country.continents.name);
     const [showInfo, setShowInfo] = useState(true);
     const btnhandele=()=>{
         setShowInfo(!showInfo);
+        handleVisitedCountry(country);
     }
   
     return (
